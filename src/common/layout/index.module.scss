@@ -14,6 +14,11 @@
       width: 100px;
       text-align: center;
     }
+    div.menu:hover{
+      cursor: pointer;
+      color: #5ab87f;
+      border-bottom: 1px solid #5ab87f;
+    }
     div.log{
       width: 200px;
       text-align: left;
@@ -28,6 +33,7 @@
       margin-left: 8px;
     }
     div.profilePicture{
+      cursor: pointer;
       width: auto;
       float: right;
       margin-left: 20px;
@@ -62,4 +68,15 @@
 .body{
   width: 1024px;
   margin: 0 auto;
+}
+
+.menu{
+  margin-top: -3px;
+}
+
+.profileMenu{
+
+}
+.menu_color{
+  color: rgba(0,0,0,.65)
 }

@@ -6,11 +6,13 @@ import LoadableFunc from '../../common/loadable'
 import './index.module.scss'
 
 const Home = LoadableFunc(import('../home'));
+const TodayMune = LoadableFunc(import('../todayMune'));
 
 const App = () => (
     <LocaleProvider locale={zhCN}>
         <div>
             <Route exact path="/" component={Home}/>
+            <Route exact path="/todayMune" component={TodayMune}/>
         </div>
     </LocaleProvider>
 );
